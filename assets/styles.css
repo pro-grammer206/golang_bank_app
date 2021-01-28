@@ -1,0 +1,56 @@
+body{
+    background-image: url("/public/scene.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-radius: 10px;
+
+}
+#nav-bar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row: auto;
+    grid-column-gap: 10px;
+}
+.nav-items{
+    text-align: center;
+    padding:20px;
+    font-weight: bold;
+    border:solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+a:hover{
+    background-color:orange;
+}
+
+
+#logform{
+    font-size: 15px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap:10px;
+    width:500px;
+    margin-left: 25vw;
+    background-color: snow;
+     border-style: solid;
+    border-width: 2px;
+    border-radius: 5%; 
+}
+#logform h2{
+    text-align: center;
+}
+.form-items{
+    margin-left: 55px;
+}
+#forgot{
+    font-size: 15px;
+}
+footer{
+    text-align: center;
+}
